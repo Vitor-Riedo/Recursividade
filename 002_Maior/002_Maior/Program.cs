@@ -15,7 +15,7 @@ namespace Maior
             //Faz uma cópia da lista pois tem método que remove os elementos da mesma.
             List<int> listaAux = new List<int>(lista.ToArray());
 
-            Console.WriteLine("Programa para retornar o maior número de uma lista de números de forma Recursiva e Iterativa - Vitor Riedo\n");
+            Console.WriteLine("Programa para retornar o MAIOR número de uma lista de números de forma Recursiva e Iterativa - Vitor Riedo\n");
 
             Gerador.exibeListaNumero(qtdNumero, lista);
 
