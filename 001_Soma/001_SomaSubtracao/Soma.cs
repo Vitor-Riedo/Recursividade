@@ -5,7 +5,7 @@ namespace Soma
     class Soma
     {
 
-        public static int somaNormal(List<int> lista)
+        public static int somaIterativa(List<int> lista)
         {
             int soma = 0;
 

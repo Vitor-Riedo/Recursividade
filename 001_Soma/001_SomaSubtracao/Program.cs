@@ -15,11 +15,11 @@ namespace Soma
             //Faz uma cópia da lista pois tem método que remove os elementos da mesma.
             List<int> listaAux = new List<int>(lista.ToArray());
 
-            Console.WriteLine("Programa para somar uma lista de números de forma Recursiva e Iterativa - Vitor Riedo\n");
+            Console.WriteLine("Programa para SOMAR uma lista de números de forma Recursiva e Iterativa - Vitor Riedo\n");
 
             Gerador.exibeListaNumero(qtdNumero, lista);
 
-            Console.WriteLine("Soma não Recursiva: " + Soma.somaNormal(lista));
+            Console.WriteLine("Soma Iterativa: " + Soma.somaIterativa(lista));
 
             Console.WriteLine("\nSoma na Volta Recursiva Com Index: " + Soma.somaVoltaRecursivaComIndex(0,lista));
 
