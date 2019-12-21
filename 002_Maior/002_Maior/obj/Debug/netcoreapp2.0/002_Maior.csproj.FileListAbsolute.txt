@@ -1,0 +1,11 @@
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\002_Maior\002_Maior\obj\Debug\netcoreapp2.0\002_Maior.csprojResolveAssemblyReference.cache
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\002_Maior\002_Maior\obj\Debug\netcoreapp2.0\002_Maior.csproj.CoreCompileInputs.cache
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\002_Maior\002_Maior\obj\Debug\netcoreapp2.0\002_Maior.AssemblyInfoInputs.cache
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\002_Maior\002_Maior\obj\Debug\netcoreapp2.0\002_Maior.AssemblyInfo.cs
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\002_Maior\002_Maior\bin\Debug\netcoreapp2.0\002_Maior.deps.json
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\002_Maior\002_Maior\bin\Debug\netcoreapp2.0\002_Maior.runtimeconfig.json
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\002_Maior\002_Maior\bin\Debug\netcoreapp2.0\002_Maior.runtimeconfig.dev.json
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\002_Maior\002_Maior\bin\Debug\netcoreapp2.0\002_Maior.dll
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\002_Maior\002_Maior\bin\Debug\netcoreapp2.0\002_Maior.pdb
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\002_Maior\002_Maior\obj\Debug\netcoreapp2.0\002_Maior.dll
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\002_Maior\002_Maior\obj\Debug\netcoreapp2.0\002_Maior.pdb
