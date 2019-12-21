@@ -13,7 +13,7 @@ namespace Maior
             Random random = new Random();
 
             for (int i = 0; i < qtd; i++)
-                lista.Add(random.Next(1,10));         
+                lista.Add(random.Next(1,100));         
 
             return lista;
         }

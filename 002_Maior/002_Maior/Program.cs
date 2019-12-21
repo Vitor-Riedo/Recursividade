@@ -7,7 +7,7 @@ namespace Maior
     {
         static void Main(string[] args)
         {
-            int qtdNumero = 5;
+            int qtdNumero = 30;
 
             //Gera uma lista de números.
             List<int> lista = Gerador.geraListaNumero(qtdNumero);
@@ -21,15 +21,15 @@ namespace Maior
 
             Console.WriteLine("Maior Iterativo: " + Maior.maiorIterativo(lista));
 
-            /*Console.WriteLine("\nSoma na Volta Recursiva Com Index: " + Soma.somaVoltaRecursivaComIndex(0, lista));
+            Console.WriteLine("\nMaior na Volta Recursiva Com Index: " + Maior.maiorVoltaRecursivaComIndex(0, lista));
 
-            Console.WriteLine("\nSoma na Volta Recursiva Sem Index: " + Soma.somaVoltaRecursivaSemIndex(listaAux));
+            Console.WriteLine("\nMaior na Volta Recursiva Sem Index: " + Maior.maiorVoltaRecursivaSemIndex(listaAux));
             listaAux = new List<int>(lista.ToArray());
 
-            Console.WriteLine("\nSoma na Ida Recursiva Com Index: " + Soma.somaIdaRecursivaComIndex(0, 0, lista));
+            Console.WriteLine("\nMaior na Ida Recursiva Com Index: " + Maior.maiorIdaRecursivaComIndex(0, 0, lista));
 
-            Console.WriteLine("\nSoma na Ida Recursiva Sem Index: " + Soma.somaIdaRecursivaSemIndex(0, lista));
-            */
+            Console.WriteLine("\nMaior na Ida Recursiva Sem Index: " + Maior.maiorIdaRecursivaSemIndex(0, lista.Count,lista));
+
             Console.WriteLine("\n\nPrecione alguma tecla para continuar!!!");
             Console.ReadKey();
         }

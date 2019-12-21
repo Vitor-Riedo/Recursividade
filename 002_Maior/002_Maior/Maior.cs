@@ -20,12 +20,14 @@ namespace Maior
             return maior;
         }
 
-        public static int somaVoltaRecursivaComIndex(int pos, List<int> lista)
+        public static int maiorVoltaRecursivaComIndex(int pos, List<int> lista)
         {
-            if (lista.Count - 1 == pos)
+            if (lista.Count - 1 == pos)//Retorna quando for o último
                 return lista[pos];
 
-            return lista[pos] + somaVoltaRecursivaComIndex(++pos, lista); //++ antes para incrementar antes de mandar
+            int retorno = maiorVoltaRecursivaComIndex(pos + 1, lista);    //Guarda para comparação
+
+            return (lista[pos] > retorno) ? lista[pos] : retorno;       //Condição ternária para retornar. (retorna o que está antes do ':' se for verdade a condição, se não passa a segunda parte)
         }
 
         public static int maiorVoltaRecursivaSemIndex(List<int> lista)
@@ -33,33 +35,45 @@ namespace Maior
             if (lista.Count == 1)
                 return lista[0];
 
-            int valor = lista[0];   //Salva o valor pra volta somar.
+            int valor = lista[0];
             lista.RemoveAt(0);      //Remove o primeiro valor para passar os demais.
 
-            return valor + maiorVoltaRecursivaSemIndex(lista);
+            int retorno = maiorVoltaRecursivaSemIndex(lista);
+
+            return (valor > retorno) ? valor : retorno;
         }
 
-        public static int maiorIdaRecursivaComIndex(int soma, int pos, List<int> lista)
+        public static int maiorIdaRecursivaComIndex(int maior, int pos, List<int> lista)
         {
-            soma += lista[pos++];   //Já incrementa para poder verificar no if, o problema é se mandar uma lista vazia. Dá pra fazer com o if antes.
+            if (lista.Count == pos)//Retorna quando for o último
+                return maior;
 
-            if (lista.Count == pos) //Não tem -1 no Count pois o pos já foi incrementado.
-                return soma;
+            if (pos == 0)
+                maior = lista[pos++];
 
-            return maiorIdaRecursivaComIndex(soma, pos, lista);
+            if (maior < lista[pos])
+                maior = lista[pos];
+
+            return maiorIdaRecursivaComIndex(maior, ++pos, lista); 
         }
 
-        public static int maiorIdaRecursivaSemIndex(int soma, List<int> lista)
+        public static int maiorIdaRecursivaSemIndex(int maior, int tamLista, List<int> lista)
         {
-            soma += lista[0];   //Soma o valor antes de mandar.
+            if (lista.Count == 0)//Retorna quando for o último
+                return maior;
 
-            if (lista.Count == 1) //Se a coma for depois do if é preciso fazer lista.Count == 0 
-                return soma;
+            if (lista.Count == tamLista)
+            {
+                maior = lista[0];
+                lista.RemoveAt(0); // Remove o que acabou de salvar
+            }
 
-            //soma += lista[0];   //Soma o valor antes de mandar.
-            lista.RemoveAt(0);    //Remove o primeiro valor para passar os demais.
+            if (maior < lista[0])
+                maior = lista[0];
 
-            return maiorIdaRecursivaSemIndex(soma, lista);
+            lista.RemoveAt(0); // Remove o que acabou de salvar
+
+            return maiorIdaRecursivaSemIndex(maior, tamLista, lista);
         }
     }
 }
