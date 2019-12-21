@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace SomaSubtracao
+namespace Soma
 {
     class Program
     {
@@ -13,7 +13,9 @@ namespace SomaSubtracao
             List<int> lista = Gerador.geraListaNumero(qtdNumero);
 
             //Faz uma cópia da lista pois tem método que remove os elementos da mesma.
-            List<int> listaAux = new List<int>(lista.ToArray()); 
+            List<int> listaAux = new List<int>(lista.ToArray());
+
+            Console.WriteLine("Programa para somar uma lista de números de forma Recursiva e Iterativa - Vitor Riedo\n");
 
             Gerador.exibeListaNumero(qtdNumero, lista);
 

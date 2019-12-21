@@ -1,0 +1,11 @@
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\001_Soma\001_SomaSubtracao\bin\Debug\netcoreapp2.0\001_Soma.deps.json
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\001_Soma\001_SomaSubtracao\bin\Debug\netcoreapp2.0\001_Soma.runtimeconfig.json
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\001_Soma\001_SomaSubtracao\bin\Debug\netcoreapp2.0\001_Soma.runtimeconfig.dev.json
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\001_Soma\001_SomaSubtracao\bin\Debug\netcoreapp2.0\001_Soma.dll
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\001_Soma\001_SomaSubtracao\bin\Debug\netcoreapp2.0\001_Soma.pdb
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\001_Soma\001_SomaSubtracao\obj\Debug\netcoreapp2.0\001_Soma.csprojResolveAssemblyReference.cache
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\001_Soma\001_SomaSubtracao\obj\Debug\netcoreapp2.0\001_Soma.csproj.CoreCompileInputs.cache
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\001_Soma\001_SomaSubtracao\obj\Debug\netcoreapp2.0\001_Soma.AssemblyInfoInputs.cache
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\001_Soma\001_SomaSubtracao\obj\Debug\netcoreapp2.0\001_Soma.AssemblyInfo.cs
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\001_Soma\001_SomaSubtracao\obj\Debug\netcoreapp2.0\001_Soma.dll
+C:\Users\Poltrinho\Documents\MEGA\Cursos\Recursividade\001_Soma\001_SomaSubtracao\obj\Debug\netcoreapp2.0\001_Soma.pdb

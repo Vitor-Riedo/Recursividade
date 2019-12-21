@@ -674,11 +674,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Poltrinho\\Documents\\MEGA\\Cursos\\Recursividade\\001_SomaSubtracao\\001_SomaSubtracao\\001_SomaSubtracao.csproj",
-      "projectName": "001_SomaSubtracao",
-      "projectPath": "C:\\Users\\Poltrinho\\Documents\\MEGA\\Cursos\\Recursividade\\001_SomaSubtracao\\001_SomaSubtracao\\001_SomaSubtracao.csproj",
+      "projectUniqueName": "C:\\Users\\Poltrinho\\Documents\\MEGA\\Cursos\\Recursividade\\001_Soma\\001_SomaSubtracao\\001_Soma.csproj",
+      "projectName": "001_Soma",
+      "projectPath": "C:\\Users\\Poltrinho\\Documents\\MEGA\\Cursos\\Recursividade\\001_Soma\\001_SomaSubtracao\\001_Soma.csproj",
       "packagesPath": "C:\\Users\\Poltrinho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Poltrinho\\Documents\\MEGA\\Cursos\\Recursividade\\001_SomaSubtracao\\001_SomaSubtracao\\obj\\",
+      "outputPath": "C:\\Users\\Poltrinho\\Documents\\MEGA\\Cursos\\Recursividade\\001_Soma\\001_SomaSubtracao\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
